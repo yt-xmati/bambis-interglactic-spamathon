@@ -47,13 +47,8 @@ class MainMenuState extends MusicBeatState
 
 	public static var bgPaths:Array<String> = 
 	[
-		'backgrounds/SUSSUS AMOGUS',
-		'backgrounds/SwagnotrllyTheMod',
-		'backgrounds/Olyantwo',
-		'backgrounds/morie',
-		'backgrounds/mantis',
-		'backgrounds/mamakotomi',
-		'backgrounds/T5mpler'
+		'backgrounds/great',
+		'backgrounds/hi',
 	];
 
 	override function create()
