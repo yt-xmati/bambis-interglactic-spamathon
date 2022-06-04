@@ -1029,7 +1029,7 @@ class PlayState extends MusicBeatState
 		var swagWatermark = new FlxText(4, scoreTxt.y + 15, 0,
 		SONG.song
 		+ " "
-		+ "- Interglactic Spamathon)", 16);
+		+ "- Interglactic Spamathon", 16);
 		//+ " ", 16);
 		swagWatermark.setFormat(Paths.font("comic.ttf"), 16, FlxColor.WHITE, RIGHT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		swagWatermark.scrollFactor.set();
