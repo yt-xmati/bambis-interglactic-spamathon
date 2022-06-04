@@ -123,7 +123,7 @@ class MainMenuState extends MusicBeatState
 
 	      FlxG.camera.follow(camFollowPos, null, 1);
 		
-		var versionShit:FlxText = new FlxText(12, ClientPrefs.getResolution()[1] - 44, 0, "Bambis Interglactic Spamathon" + modVersion, 12);
+		var versionShit:FlxText = new FlxText(12, ClientPrefs.getResolution()[1] - 44, 0, "VS Bambi: Interglactic Spamathon" + modVersion, 12);
 		versionShit.scrollFactor.set();
 		versionShit.setFormat("Comic Sans MS Bold", 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		add(versionShit);
