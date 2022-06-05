@@ -51,7 +51,7 @@ class FreeplayState extends MusicBeatState
 
 	private var CurrentSongIcon:FlxSprite;
 
-	private var AllPossibleSongs:Array<String> = ["dave"];
+	private var AllPossibleSongs:Array<String> = ["main"]; //BRUHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
 
 	private var CurrentPack:Int = 0;
 
