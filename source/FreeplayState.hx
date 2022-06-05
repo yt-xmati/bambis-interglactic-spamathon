@@ -117,12 +117,9 @@ class FreeplayState extends MusicBeatState
 		{
 			switch (AllPossibleSongs[CurrentPack].toLowerCase())
 			{
-				case 'dave':
-					addWeek(['Tutorial'], 6, ['gf']);
-					addWeek(['Bopeebo', 'Fresh', 'Dad-battle'], 2,['dad']);
-					addWeek(['Spookeez', 'South'], 2,['spooky']);
-					addWeek(['Pico','Philly-nice','Blammed',], 3, ['pico']);
-					addWeek(['satin-panties', 'high', 'milf'], 6,['mom']);
+				case 'main':
+					addWeek(['Interlust', 'Rotomania', 'Monophobia 3'], 2,['whiteexpunged']);
+					addWeek(['Redemption', 'Oblivion'], 2,['Bamb']);
 			}
 		}
 
@@ -136,7 +133,6 @@ class FreeplayState extends MusicBeatState
 		{
 			var songText:Alphabet = new Alphabet(0, (70 * i) + 30, songs[i].songName, true, false);
 			songText.isMenuItem = false;
-			songText.itemType = "D-Shape";
 			songText.targetY = i;
 			grpSongs.add(songText);
 
