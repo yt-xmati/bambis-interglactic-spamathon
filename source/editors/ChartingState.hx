@@ -159,7 +159,10 @@ class ChartingState extends MusicBeatState
 		8,
 		12,
 		16,
-		24
+		24,
+                32,
+                64,
+                128
 	];
 	#else //The grid gets all black when over 1/12 snap
 	var zoomList:Array<Float> = [
@@ -168,7 +171,12 @@ class ChartingState extends MusicBeatState
 		2,
 		4,
 		8,
-		12
+		12,
+		16,
+		24,
+                32,
+                64,
+                128
 	];
 	#end
 
@@ -463,7 +471,7 @@ class ChartingState extends MusicBeatState
 		clear_notes.color = FlxColor.RED;
 		clear_notes.label.color = FlxColor.WHITE;
 
-		var stepperBPM:FlxUINumericStepper = new FlxUINumericStepper(10, 70, 1, 1, 1, 339, 1);
+		var stepperBPM:FlxUINumericStepper = new FlxUINumericStepper(10, 70, 1, 1, 1, 9999, 1);
 		stepperBPM.value = Conductor.bpm;
 		stepperBPM.name = 'song_bpm';
 		blockPressWhileTypingOnStepper.push(stepperBPM);
